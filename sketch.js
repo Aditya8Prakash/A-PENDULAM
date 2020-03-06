@@ -17,7 +17,7 @@ fill("red")
 textSize(20);
 text("Press 'Space Bar' to move the Ball of Pendulam with the position of Mouse.",100,40);
 text("Press 'ENTER key' to leave the Ball Pendulam at its position.",100,80);
-text("Press 'SHIFT key' to come back to its Mean Pesition.",100,120);
+text("Press 'SHIFT key' to come back to its Mean Position.",100,120);
 text("X : "+Math.round(ball.body.position.x),850,40);
 text("Y : "+Math.round(ball.body.position.y),850,80);
 if(keyCode===32){
