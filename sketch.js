@@ -24,7 +24,7 @@ if(keyCode===32){
 ball.body.position.y=mouseY;
 ball.body.position.x=mouseX;}
 if(keyCode===16){
-ball.body.position.y=480;
+ball.body.position.y=481;
 ball.body.position.x=600;} 
 ball.display();
 stand.display();
